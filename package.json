@@ -1,0 +1,23 @@
+{
+  "name": "playwright-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Jeff Nyman (https://testerstories.com)",
+  "license": "MIT",
+  "description": "Pedagogical exercise for Playwright API testing.",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "training",
+    "api",
+    "testing",
+    "playwright"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.1.0"
+  }
+}
