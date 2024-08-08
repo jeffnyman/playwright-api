@@ -1,5 +1,7 @@
 # Learning Playwright (API)
 
+My focus for this example is showing a "framework" approach, but keeping the framework very light. Essentially, what I do is provide a small abstraction layer around the idea of communicating with an API. See the Implementation section below for more details.
+
 ## Prerequisites
 
 Make sure you have [Node.js](https://nodejs.org/en). The LTS version should be fine. You will also need the `npm` package manager (which comes with Node.js) or `yarn`. A development environment or IDE with TypeScript/JavaScript support will help. [Visual Studio Code](https://code.visualstudio.com/) is a good choice.
@@ -16,7 +18,7 @@ npm ci
 
 The reason for `npm ci` is covered best in this [Stack Overflow answer](https://stackoverflow.com/a/53325242).
 
-Make sure to intasll the browsers that Playwright will need.
+Make sure to install the browsers that Playwright will need.
 
 ```shell
 npx playwright install
